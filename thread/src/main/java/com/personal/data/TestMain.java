@@ -27,7 +27,6 @@ public class TestMain implements Runnable{
 		
 		while (true) {			
 			longValue = longArray[i % length];	
-			//		System.out.println(longValue);			
 			i = (i < length) ? i + 1 : 0;						
 			checkValue(longValue); 		
 		}	
